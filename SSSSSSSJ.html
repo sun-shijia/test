@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+        }
+        .section p {
+            line-height: 1.6em;
+        }
+        .projects, .blog {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project, .blog-post {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1em;
+            margin: 1em;
+            width: calc(33% - 4em);
+            box-sizing: border-box;
+        }
+        .project img, .blog-post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 2em 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SSSSSSSJ个人网页</h1>
+    </header>
+    <nav>
+        <a href="#about">关于我</a>
+        <a href="#experience">工作经历</a>
+        <a href="#projects">项目展示</a>
+        <a href="#blog">博客</a>
+        <a href="#contact">联系方式</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>关于我</h2>
+            <p>你好！我是SSSSSSSJ。AIDD学习中。</p>
+        </div>
+        <div id="experience" class="section">
+            <h2>工作经历</h2>
+            <p>在过去的几年中，我没有积累了丰富的经验，包括但不限于：</p>
+            <ul>
+                <li>混</li>
+                <li>摸</li>
+                <li>摆</li>
+            </ul>
+        </div>
+        <div id="projects" class="section projects">
+            <h2>没有项目就展示图片</h2>
+            <div class="project">
+                <img src="C:\Users\Administrator\Desktop\其他\88842797_p0.png" alt="图片一">
+                <h3>图片1</h3>
+                <p>叶伊布</p>
+            </div>
+            <div class="project">
+                <img src="C:\Users\Administrator\Desktop\其他\基拉祈.jpg" alt="图片二">
+                <h3>图片2</h3>
+                <p>基拉祈</p>
+            </div>
+        </div>
+        <div id="blog" class="section blog">
+            <h2>博客</h2>
+            <div class="blog-post">
+                <h3>博客1</h3>
+                <p>这是博客1的简要介绍（虽然没有）。</p>
+            </div>
+            <div class="blog-post">
+                <h3>博客2</h3>
+                <p>这是博客2的简要介绍（虽然没有）。</p>
+            </div>
+            <div class="blog-post">
+                <h3>博客3</h3>
+                <p>这是博客3的简要介绍（虽然没有）。</p>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h2>联系方式</h2>
+            <p>不要联系我，请发送电子邮件至：buyaolianxiwo@gmail.com (create by GPT-4o)</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 SSSSSSSJ。保留所有权利。</p>
+    </footer>
+</body>
+</html>
